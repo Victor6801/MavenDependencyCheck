@@ -1,0 +1,25 @@
+meta:
+  schema-version: 0.1.0
+  created-on: "2025-08-12T08:10:13Z"
+  cli-version: 0.2.0
+projects:
+  8D68C4C6A2D8F65E02DA0C011D7ECC897390E0CF:
+    targets:
+      - pom.xml
+    manager:
+      ecosystem: java
+      name: maven
+      version: ""
+    overrides:
+      commons-beanutils:commons-beanutils:
+        1.9.4:
+          use: 1.9.4+sp1
+      org.glassfish:javax.el:
+        3.0.0:
+          use: 3.0.0+sp1
+      commons-io:commons-io:
+        2.11.0:
+          use: 2.11.0+sp1
+      log4j:log4j:
+        1.2.17:
+          use: 1.2.17+sp1
